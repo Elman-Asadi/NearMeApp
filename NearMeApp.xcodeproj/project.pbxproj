@@ -13,6 +13,8 @@
 		857738DA26EC9BD400C312A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857738D926EC9BD400C312A6 /* Assets.xcassets */; };
 		857738DD26EC9BD400C312A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857738DC26EC9BD400C312A6 /* Preview Assets.xcassets */; };
 		857738E026EC9BD400C312A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857738DE26EC9BD400C312A6 /* LaunchScreen.storyboard */; };
+		857738E926EC9D3D00C312A6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857738E826EC9D3D00C312A6 /* MapView.swift */; };
+		857738EC26ECB47E00C312A6 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857738EB26ECB47E00C312A6 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		857738DC26EC9BD400C312A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		857738DF26EC9BD400C312A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		857738E126EC9BD400C312A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857738E826EC9D3D00C312A6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		857738EB26ECB47E00C312A6 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		857738D226EC9BD300C312A6 /* NearMeApp */ = {
 			isa = PBXGroup;
 			children = (
+				857738EA26ECB44A00C312A6 /* Coordinators */,
+				857738E726EC9D2100C312A6 /* Views */,
 				857738D326EC9BD300C312A6 /* AppDelegate.swift */,
 				857738D526EC9BD300C312A6 /* SceneDelegate.swift */,
 				857738D726EC9BD300C312A6 /* ContentView.swift */,
@@ -73,6 +79,22 @@
 				857738DC26EC9BD400C312A6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		857738E726EC9D2100C312A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				857738E826EC9D3D00C312A6 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		857738EA26ECB44A00C312A6 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				857738EB26ECB47E00C312A6 /* Coordinator.swift */,
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				857738D426EC9BD300C312A6 /* AppDelegate.swift in Sources */,
+				857738E926EC9D3D00C312A6 /* MapView.swift in Sources */,
+				857738EC26ECB47E00C312A6 /* Coordinator.swift in Sources */,
 				857738D626EC9BD300C312A6 /* SceneDelegate.swift in Sources */,
 				857738D826EC9BD300C312A6 /* ContentView.swift in Sources */,
 			);
