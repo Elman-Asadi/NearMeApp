@@ -15,6 +15,7 @@
 		857738E026EC9BD400C312A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857738DE26EC9BD400C312A6 /* LaunchScreen.storyboard */; };
 		857738E926EC9D3D00C312A6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857738E826EC9D3D00C312A6 /* MapView.swift */; };
 		857738EC26ECB47E00C312A6 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857738EB26ECB47E00C312A6 /* Coordinator.swift */; };
+		857738EF26ECBCE200C312A6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857738EE26ECBCE200C312A6 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		857738E126EC9BD400C312A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		857738E826EC9D3D00C312A6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		857738EB26ECB47E00C312A6 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		857738EE26ECBCE200C312A6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		857738D226EC9BD300C312A6 /* NearMeApp */ = {
 			isa = PBXGroup;
 			children = (
+				857738ED26ECBCAC00C312A6 /* Managers */,
 				857738EA26ECB44A00C312A6 /* Coordinators */,
 				857738E726EC9D2100C312A6 /* Views */,
 				857738D326EC9BD300C312A6 /* AppDelegate.swift */,
@@ -95,6 +98,14 @@
 				857738EB26ECB47E00C312A6 /* Coordinator.swift */,
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		857738ED26ECBCAC00C312A6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				857738EE26ECBCE200C312A6 /* LocationManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 			files = (
 				857738D426EC9BD300C312A6 /* AppDelegate.swift in Sources */,
 				857738E926EC9D3D00C312A6 /* MapView.swift in Sources */,
+				857738EF26ECBCE200C312A6 /* LocationManager.swift in Sources */,
 				857738EC26ECB47E00C312A6 /* Coordinator.swift in Sources */,
 				857738D626EC9BD300C312A6 /* SceneDelegate.swift in Sources */,
 				857738D826EC9BD300C312A6 /* ContentView.swift in Sources */,
